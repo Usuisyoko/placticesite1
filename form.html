@@ -5,8 +5,10 @@
 	<meta charaset="UTF-8">
 	<meta nema="description"
 	content="">
+	<h1>
 	<title>
-	</title>
+		form
+	</title></h1>
 	<link rel="stylesheet" href="css/destyle.css">
 	
 	</head>
@@ -14,9 +16,9 @@
 	<body class="form">
 	
 <header>
-	<h1><a href="index.html">
+	<a href="index.html">
 
-		<img src="images/logo.png" alt="タイトル名前"></a></h1>
+		<img src="images/logo.png" alt="form"></a>
 		<nav>
 		<ul>
 			<li><a href="index.html">ホーム</a>
@@ -36,12 +38,18 @@
 	
 	<main>
 	<section>
-		【<section>】
-• 見出しを使う：サイトの”form”の部分にh１タグを設定する。
-• フォームを作る：emailアドレス入力欄、複数行のテキスト入力欄、を作る。どちらも初期値で文字が表示されるようにする。
-*実際に送信はしないので、formタグの属性は設定しなくて大丈夫です。
-• ボタンを作る：送信ボタンを作り、ボタンに"送信"と表示させる。
+
+		<labl for="rendou">e-mail:</labl>
+		<input id="rendou" type="text"
+		name="e-mail">
 		
+		
+		<label for="comment">内容</label>
+		<textarea id="comment" name="comment"
+	placeholder="内容">
+		</textarea>
+		
+		<input type="submit" value="送信">
 		
 		</section>
 	</main>
