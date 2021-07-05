@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+	line-height: 1.7;
+	font-size: 16px;
+	font-family: -apple-system,Meiryo
+color: #000;}
+
+a,
+a:link {
+	color: #000;
+}
+
+/* header  */
+header {display: flex;}
+
+header h1 {
+	margin: 25px 0 0 20px;
+}
+header nav {
+	margin: 0 0 0 auto;
+}
+header nav ul{
+	list-style-type: none;
+	margin: 20px 0;
+	padding: 0;
+	display: flex;
+}
+

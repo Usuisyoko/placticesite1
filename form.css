@@ -1,0 +1,83 @@
+<head>
+<meta @charaset."UTF-8";
+body {
+	line-height: 1.7;
+	font-size: 16px;
+	font-family: -apple-system,meiryo,
+	color: #000;
+}
+a,
+a:link {
+	color: #800050;
+}
+a:visited {
+	color
+}
+
+/*header* 右にずらしてリンクを作る*/
+header {
+	display: flex;
+}
+header h1 {
+	margin: 25px 0 0 20px;
+}
+header nav {
+	margin:0 0 0 auto;
+}
+header nav ul{
+	list-style-type: none;
+	margin: 20px 0;
+	padding: 0;
+	display: flex;
+}
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited
+{
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #000;
+}
+header nav ul li a:hover {
+	color: #888;
+}
+
+nav1 ul {
+	font-size: 0;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 4px;
+	list-style: none;
+	text-align: center;
+}
+nav1 li {
+font-size: 24px;
+	margin: 0 8px;
+	display: inline-block;
+}
+nav1 li a {
+text-decoration: none;
+padding-bottom: 3px; /*文字戸の隙間を作る*/
+	color: #000;
+	display:block;
+}
+nav1 li a:after {
+	content: '';
+	width: 0;
+	transition: all 0.3s ease;
+	border-bottom: 3px solid #000;
+	display: block;
+}
+nav1 li a:hover:after {
+	width: 100%;
+	border-bottom: 3px solid #000;
+}
+
+
+
+/* hooter * 足、©を入れる。• 文字コードを指定する：UTF-８を指定する。
+• 全要素に box-sizing:  border-box を設定する。 
+• ロゴの背景にborder-radiusを使用する。
+• アンダーラインを出す：list itemにマウスオーバーすると、マウスオーバーしたlist itemにアンダーラインが出るようにする。
+/
