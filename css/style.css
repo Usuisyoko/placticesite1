@@ -1,18 +1,15 @@
-<head>
-<meta @charaset."UTF-8";
+@charset "UTF-8";
 body {
 	line-height: 1.7;
 	font-size: 16px;
-	font-family: -apple-system,meiryo,
+	font-family: -apple-system,meiryo;
 	color: #000;
 }
-a,
-a:link {
-	color: #800050;
-}
-a:visited {
-	color
-}
+a{text-decoration: none;}
+
+a:hover{text-decoration:
+	underline;
+	color: #999854;}
 
 /*header* 右にずらしてリンクを作る*/
 header {
@@ -76,8 +73,41 @@ nav1 li a:hover:after {
 
 
 
+/* form  */
+
+a,
+a:link {
+	color: #000;
+}
+
+form header {display: flex;}
+
+form header h1 {
+	margin: 25px 0 0 20px;
+}
+form header nav {
+	margin: 0 0 0 auto;
+}
+form header nav ul{
+	list-style-type: none;
+	margin: 20px 0;
+	padding: 0;
+	display: flex;
+}
+
+
+
+
+
+
+main
+/*paragraphを真ん中に寄せる*/
+
+ /*table　表を左右に置く,左の一番上をオレンジ色に変える*/
+
+
 /* hooter * 足、©を入れる。• 文字コードを指定する：UTF-８を指定する。
 • 全要素に box-sizing:  border-box を設定する。 
 • ロゴの背景にborder-radiusを使用する。
-• アンダーラインを出す：list itemにマウスオーバーすると、マウスオーバーしたlist itemにアンダーラインが出るようにする。
+• アンダーラインを出す：list itemにマウスオーバーすると、マウスオーバーしたlist itemにアンダーラインが出るようにする。送信ボタンを黒くして文字を白くする。
 /
