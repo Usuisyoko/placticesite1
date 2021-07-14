@@ -71,6 +71,11 @@ nav1 li a:hover:after {
 	border-bottom: 3px solid #000;
 }
 
+table {text-align: center;}
+table th{/*thに対して*/color: orange;}
+
+</table>
+
 
 
 /* form  */
